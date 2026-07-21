@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>for John Wick 🌸</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="petals"></div>
+
+<!-- ============ PAGE 1: HERO ============ -->
+<section id="hero" class="page active">
+  <div class="page-bg"></div>
+  <div class="rising-hearts" id="risingHearts"></div>
+  <div class="page-content">
+    <div class="eyebrow eyebrow-hype">🎉 surprise 🎉</div>
+    <h1 class="title">John Wick <span class="name">🌸</span></h1>
+
+    <p class="subtitle">Someone special made something special... for his pookie 😉</p>
+
+    <div class="sealed-letter">
+      <span class="sealed-letter-icon">💌</span>
+      <span class="sealed-letter-label">sealed with a little secret...</span>
+    </div>
+
+    <div class="heart-monitor" id="heartMonitor">
+      <div class="ecg-wrap">
+        <svg class="ecg-svg" viewBox="0 0 300 60" preserveAspectRatio="none">
+          <polyline class="ecg-path" pathLength="100" points="0,30 22,30 28,30 32,8 36,52 40,16 44,30 70,30 76,30 80,6 84,54 88,30 118,30 150,30 156,30 160,10 164,50 168,30 198,30 228,30 234,30 238,8 242,52 246,30 272,30 300,30"/>
+        </svg>
+      </div>
+      <div class="heart-monitor-readout">
+        <span class="hm-bpm" id="hmBpm">86</span><span class="hm-unit">bpm</span>
+        <span class="hm-heart">💓</span>
+      </div>
+      <div class="heart-monitor-caption">heart rate: elevated (pookie-induced) 😳</div>
+    </div>
+
+    <button class="cta-btn" onclick="goToPage('countdown')">let's gooo ✨</button>
+  </div>
+  <div class="floral-bed" id="floralBed"></div>
+</section>
+
+<!-- ============ PAGE 2: COUNTDOWN ============ -->
+<section id="countdown" class="page">
+  <div class="page-bg"></div>
+  <button class="back-btn" onclick="goToPage('hero')">← back</button>
+  <div class="page-content">
+    <div class="countdown-label" id="countdownLabel">Kuchh to special aane waala hai 😏</div>
+
+    <div class="countdown-grid" id="countdownGrid">
+      <div class="cd-unit"><div class="cd-num" id="cdDays">00</div><div class="cd-lbl">days</div></div>
+      <div class="cd-sep">🌸</div>
+      <div class="cd-unit"><div class="cd-num" id="cdHours">00</div><div class="cd-lbl">hrs</div></div>
+      <div class="cd-sep">🌸</div>
+      <div class="cd-unit"><div class="cd-num" id="cdMins">00</div><div class="cd-lbl">min</div></div>
+      <div class="cd-sep">🌸</div>
+      <div class="cd-unit"><div class="cd-num" id="cdSecs">00</div><div class="cd-lbl">sec</div></div>
+    </div>
+
+    <div class="countdown-hint" id="countdownHint">Intezaar ka fal meetha hota hai pookie</div>
+
+    <div class="big-count" id="bigCount"></div>
+
+    <div class="birthday-message" id="birthdayMessage">
+      <div class="bday-photo-frame">
+        <div class="bday-bunting">
+          <span class="bday-flag"></span>
+          <span class="bday-flag"></span>
+          <span class="bday-flag"></span>
+          <span class="bday-flag"></span>
+          <span class="bday-flag"></span>
+          <span class="bday-flag"></span>
+        </div>
+
+        <div class="bday-balloon bday-balloon-left">
+          <svg viewBox="0 0 40 90">
+            <ellipse cx="20" cy="24" rx="18" ry="22" fill="#c9b6e4"/>
+            <ellipse cx="14" cy="16" rx="5" ry="7" fill="#fff" opacity=".35"/>
+            <polygon points="17,46 23,46 20,52" fill="#c9b6e4"/>
+            <path d="M20 52 Q26 60 20 68 Q14 76 20 86" stroke="#a98fd2" stroke-width="1.5" fill="none"/>
+          </svg>
+        </div>
+        <div class="bday-balloon bday-balloon-right">
+          <svg viewBox="0 0 40 90">
+            <ellipse cx="20" cy="24" rx="18" ry="22" fill="#f6b8d2"/>
+            <ellipse cx="14" cy="16" rx="5" ry="7" fill="#fff" opacity=".35"/>
+            <polygon points="17,46 23,46 20,52" fill="#f6b8d2"/>
+            <path d="M20 52 Q14 60 20 68 Q26 76 20 86" stroke="#e88bb5" stroke-width="1.5" fill="none"/>
+          </svg>
+        </div>
+
+        <svg class="bday-cake" viewBox="0 0 100 72">
+          <rect x="34" y="16" width="4" height="16" fill="#c9b6e4"/>
+          <rect x="62" y="16" width="4" height="16" fill="#c9b6e4"/>
+          <path class="bday-flame" d="M36 16 Q33 10 36 5 Q39 10 36 16Z" fill="#ffb347"/>
+          <path class="bday-flame" d="M64 16 Q61 10 64 5 Q67 10 64 16Z" fill="#ffb347"/>
+          <rect x="14" y="32" width="72" height="14" rx="4" fill="#fdf6f0"/>
+          <rect x="10" y="44" width="80" height="16" rx="4" fill="#f6b8d2"/>
+          <rect x="8" y="58" width="84" height="10" rx="4" fill="#e88bb5"/>
+          <circle cx="26" cy="51" r="2.6" fill="#fdf6f0"/>
+          <circle cx="50" cy="51" r="2.6" fill="#fdf6f0"/>
+          <circle cx="74" cy="51" r="2.6" fill="#fdf6f0"/>
+        </svg>
+
+        <svg class="bday-gift" viewBox="0 0 60 60">
+          <rect x="10" y="26" width="40" height="26" rx="3" fill="#f6b8d2"/>
+          <rect x="10" y="26" width="40" height="8" fill="#e88bb5"/>
+          <rect x="26" y="10" width="8" height="42" fill="#c9b6e4"/>
+          <path d="M30 10 C20 10 18 -2 30 6 C42 -2 40 10 30 10Z" fill="#a98fd2"/>
+        </svg>
+
+        <svg class="bday-teddy" viewBox="0 0 60 60">
+          <circle cx="14" cy="14" r="9" fill="#d9a86a"/>
+          <circle cx="46" cy="14" r="9" fill="#d9a86a"/>
+          <circle cx="14" cy="14" r="4.5" fill="#8a5a2a"/>
+          <circle cx="46" cy="14" r="4.5" fill="#8a5a2a"/>
+          <circle cx="30" cy="32" r="24" fill="#e8b877" stroke="#c98a4e" stroke-width="2"/>
+          <circle cx="22" cy="28" r="3" fill="#2a1d12"/>
+          <circle cx="38" cy="28" r="3" fill="#2a1d12"/>
+          <ellipse cx="30" cy="38" rx="9" ry="7" fill="#fdf0da"/>
+          <ellipse cx="30" cy="38" rx="3" ry="2.5" fill="#2a1d12"/>
+          <path d="M26 42 Q30 45 34 42" stroke="#2a1d12" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+        </svg>
+
+        <svg class="bday-bouquet" viewBox="0 0 60 70">
+          <path d="M30 8 C20 12 18 26 30 32 C42 26 40 12 30 8Z" fill="#fdf6f0" stroke="#e8bcd2" stroke-width="1.5"/>
+          <circle cx="16" cy="18" r="7" fill="#c9b6e4"/>
+          <circle cx="44" cy="18" r="7" fill="#c9b6e4"/>
+          <circle cx="12" cy="10" r="5" fill="#b79fdc"/>
+          <circle cx="48" cy="10" r="5" fill="#b79fdc"/>
+          <path d="M30 32 L30 55" stroke="#8fae8f" stroke-width="3" stroke-linecap="round"/>
+          <path d="M22 50 Q30 44 38 50 L36 58 Q30 62 24 58Z" fill="#e88bb5"/>
+        </svg>
+
+        <div class="photo-wrap bday-photo" id="photoWrap1">
+          <img class="js-photo" id="photo1" data-base="images/photo1" alt="a picture of her">
+          <div class="photo-fallback">
+            <span class="icon">📷</span>
+            <span>place <code>photo1.png</code> (or .jpg) in <code>images</code></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bday-title">Happy Birthday</div>
+      <div class="bday-sub">Shawty 🎂🌸</div>
+    </div>
+
+    <button class="tap-continue" id="tapContinue" onclick="stopCelebrationAndContinue()">
+      <span class="tap-continue-icon">🌸</span>
+      <span class="tap-continue-text">Picture abhi baaki hai, pookie&nbsp;😏</span>
+    </button>
+  </div>
+  <div class="crackers" id="crackers"></div>
+
+  <div class="error-troll" id="errorTroll">
+    <div class="error-code">404</div>
+    <div class="error-title">birthday.exe has stopped working</div>
+    <div class="error-sub">just kidding... your surprise definitely did not crash 😌</div>
+    <div class="error-dots"><span class="error-dot"></span><span class="error-dot"></span><span class="error-dot"></span></div>
+    <div class="error-jk">loading the real thing now, pookie 🎀</div>
+  </div>
+</section>
+
+<!-- ============ PAGE 3: REVEALS ============ -->
+<section id="reveals" class="page">
+  <div class="page-bg"></div>
+  <button class="back-btn" onclick="goToPage('countdown')">← back</button>
+  <div class="page-content">
+    <div class="stage-hint" id="stageHint">go on, unwrap a little secret 🎀</div>
+
+    <button class="flower-btn" id="flowerBtn" onclick="reveal()"></button>
+
+    <div class="msg-card" id="msgCard">
+      <div class="msg-deco" id="msgDeco"></div>
+      <div id="msgContent"></div>
+    </div>
+
+    <div class="card-nav" id="cardNav">
+      <button class="nav-arrow" id="navPrev" onclick="prevCard()" aria-label="previous card">‹</button>
+      <div class="progress" id="progress"></div>
+      <button class="nav-arrow" id="navNext" onclick="nextCard()" aria-label="next card">›</button>
+    </div>
+
+    <div class="next-hint" id="nextHint"></div>
+
+    <button class="cta-btn continue-btn" id="continueBtn" onclick="goToPage('finale')">dil ki baat 👉🙈</button>
+  </div>
+</section>
+
+<!-- ============ PAGE 4: FINALE ============ -->
+<section id="finale" class="page">
+  <div class="page-bg"></div>
+  <div class="page-content">
+
+    <!-- stage 1: just the letter -->
+    <div class="finale-stage active" id="finaleLetterStage">
+      <button class="back-btn" onclick="goToPage('reveals')">← back</button>
+      <div class="finale-title">Dil ki baat, seedhe tumhare naam 💌</div>
+      <div class="ribbon"></div>
+
+      <!-- gift gate: swipe across the box like fruit ninja to slice it open -->
+      <div class="gift-gate" id="giftGate">
+        <div class="gift-gate-caption">Isko right swipe kar pookie, jaise mujhe kiya thha 😉</div>
+
+        <div class="gift-box-wrap" id="giftBoxWrap">
+          <div class="gift-half gift-half-top">
+            <svg viewBox="0 0 100 100"><g>
+              <rect x="14" y="38" width="72" height="24" fill="#f6b8d2"/>
+              <rect x="14" y="38" width="72" height="9" fill="#e88bb5"/>
+              <rect x="44" y="6" width="12" height="56" fill="#c9b6e4"/>
+              <path d="M50 6 C34 6 30 -10 50 2 C70 -10 66 6 50 6Z" fill="#a98fd2"/>
+            </g></svg>
+          </div>
+          <div class="gift-half gift-half-bottom">
+            <svg viewBox="0 0 100 100"><g>
+              <rect x="14" y="38" width="72" height="24" fill="#f6b8d2"/>
+              <rect x="14" y="38" width="72" height="9" fill="#e88bb5"/>
+              <rect x="44" y="6" width="12" height="56" fill="#c9b6e4"/>
+              <path d="M50 6 C34 6 30 -10 50 2 C70 -10 66 6 50 6Z" fill="#a98fd2"/>
+            </g></svg>
+          </div>
+          <div class="slice-blade" id="sliceBlade"></div>
+        </div>
+
+        <div class="gift-gate-hint">swipe across the box to slice it open ✂️</div>
+      </div>
+
+      <div class="letter-reveal" id="letterReveal">
+        <div class="letter">
+          <div class="letter-scroll">
+            <h3>Aww pookie 🤞❤️</h3>
+            <p>Yaha tak aa gaye matlab IQ to sahi hai 😏 Tomar heartbeat 100 paar jachhe ami without any equipment bolte paari 😏</p>
+            <p>Ki bhabcho? 3 magical words lekha thakbe? "Charge your phone" 😂 krte hbe na ar. I've something else to say. Just eita bolte chai je <strong>thank you pookie 🤞</strong> thank you for becoming an important part of my life and the reason for unexplained smiles and happiness ❤️ tomar jonno jaayi likhi ba kori na keno kom e thakbe but still ei medium er through bolte chai that you're special to me 😏 special na thakle ato kando korte jetam na.</p>
+            <p>Ebar main discussion kori, future plans niye 😏 jaani ki sunte chao 😏 but nahi nahi, abhi nahi, <em>zara karo intezaar</em> 🎵🎼 hehe, abhi to bahut tease karna hai tumhe wo bolne se pehle.</p>
+            <p>Abhi ke liye, I just wish you lots and lots of happy 🎂 Stay blessed 🙌 may your life be full of happiness and joy ❤️ (also me 😏) and may this upcoming year be full of happy memories to remember for a lifetime. 😉</p>
+            <p>Baaki enjoy your day, party hard and stay excited for what's coming next 😏 Love you my pookie ❤️ my lucky charm ❤️ and many much more, next page e lekha paabe. 🤭</p>
+            <p>Take care of your knees, in case you fall hard for me. 😏</p>
+            <div class="sign">
+              <span class="sign-from">From,</span>
+              <span class="sign-name">Your pookie victim ❤️</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cat-duo">
+          <div class="cat-duo-item">
+            <img src="https://media.tenor.com/dTJ-qn-XJCoAAAAM/keyboard-cat.gif" alt="a very hardworking cat" loading="lazy">
+          </div>
+          <div class="cat-duo-heart">💗</div>
+          <div class="cat-duo-item">
+            <img src="https://media1.tenor.com/m/kTCpOtE7zBoAAAAC/cat-blinking.gif" alt="a very cute cat" loading="lazy">
+          </div>
+        </div>
+
+        <button class="cta-btn" id="finaleNextBtn" onclick="showOrbitStage()">next ✨</button>
+      </div>
+    </div>
+
+    <!-- stage 2: her photo, with keyword tags spinning around it -->
+    <div class="finale-stage orbit-stage" id="finaleOrbitStage">
+      <button class="back-btn" onclick="showLetterStage()">← back</button>
+      <div class="orbit-wish">Happy Birthday <span class="orbit-wish-name">Jaaneman</span> 🎂💗</div>
+      <div class="orbit-wrap" id="orbitWrap">
+        <div class="photo-wrap orbit-photo" id="photoWrap2">
+          <img class="js-photo" id="photo2" data-base="images/photo2" alt="a picture of her">
+          <div class="photo-fallback">
+            <span class="icon">📷</span>
+            <span>place <code>photo2.png</code> (or .jpg) in <code>images</code></span>
+          </div>
+        </div>
+        <div class="orbit-ring orbit-ring-outer" id="orbitRingOuter"></div>
+        <div class="orbit-ring orbit-ring-inner" id="orbitRingInner"></div>
+      </div>
+      <div class="heart-row">🤍🌸💜🤞</div>
+    </div>
+
+  </div>
+  <div class="crackers" id="finaleCrackers"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
