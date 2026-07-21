@@ -80,7 +80,7 @@ function goToPage(id){
 // ---------- countdown target (locked until this date/time) ----------
 // TEMP FOR DEV/TESTING — set to the 20th so the unlock flow triggers immediately for testing.
 // TODO: change the day back to 23 before sharing the real link.
-const COUNTDOWN_TARGET = new Date(2026, 7, 23, 0, 0, 0, 0).getTime(); // month is 0-indexed: 6 = July
+const COUNTDOWN_TARGET = new Date(2026, 7, 20, 0, 0, 0, 0).getTime(); // month is 0-indexed: 6 = July
 let countdownInterval = null;
 let countdownStarted = false;
 
