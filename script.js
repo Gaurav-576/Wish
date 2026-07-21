@@ -245,11 +245,11 @@ document.querySelectorAll('.js-photo').forEach(wireImageFallback);
 
 // ---------- reveal flow (page 3) ----------
 const messages = [
-  "your smile is basically my favorite notification. 🔔💗",
-  "you're the human version of a warm blanket on a cold day. 🤍",
-  "even when you're being silly, i think you're the cutest thing ever. 🐰",
-  "you make ordinary days feel like main character moments. 🌸",
-  "being your person is genuinely one of my favorite things about life. 🥹💜"
+  "Tomar smile ato beautiful, je eta te copyright howa uchit... shudhu amar. 😏❤️",
+  "Jaani na kon drug use koro... tomake chhara onno kauke na dekhte paayi, na bhabte paari. 🙈❤️",
+  "Eije tomar chokh gulo ato dangerously hypnotising... er opor warning sign lagano nei keno? 🫣👀",
+  "Tomar naam ta shunlei automatic amar mukhe ekta smile chole ashe... kon black magic korecho amar opor? 😳✨",
+  "Address change korle ar janale na? 😏 Jaak, ekhon jokhon amar heart-ei thakcho... rent hishebe shudhu ektu bhalobasha dilei cholbe. ❤️"
 ];
 
 // one hand-drawn, animated little icon per card — kept as inline SVG (rather
